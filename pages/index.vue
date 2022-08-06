@@ -1,5 +1,5 @@
 <template>
   <div>
-    Hello Nuxt
+    <EnHeader />
   </div>
 </template>

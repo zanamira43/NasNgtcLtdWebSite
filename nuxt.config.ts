@@ -4,6 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
 
     css: ['/assets/main.css'],
+    modules: ['@nuxtjs/tailwindcss'],
     postcss: {
       plugins: {
         tailwindcss: {},
