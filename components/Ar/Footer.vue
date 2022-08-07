@@ -72,8 +72,13 @@
 
     <!-- copy right section -->
     <div class="bg-[#333333] text-white h-auto p-2 text-center">
-     <p class="font-medium"> 	&#169; 2022 Nas Company, Developed and Designed by 
-      <span class="text-gray-400">Nas Team Developer</span> </p>
+     <p class="font-medium"> 	
+      &#169; 
+      
+       شركة ناس ، تطوير وتصميم
+      من قبل
+      <span class="mr-2 text-gray-400">مطوري شركة ناس</span>
+     </p>
     </div>
   </div>
 </template>

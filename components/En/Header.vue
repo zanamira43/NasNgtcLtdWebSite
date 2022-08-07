@@ -1,10 +1,14 @@
 <template>
-  <div class="container mx-auto">
+  <div>
     <div class="border w-full h-[500px] bg-black relative overflow-auto">
+  
       <!-- hader section image background -->
       <img src="img-background.jpeg" alt="header-image" 
         class="w-full h-full items-center opacity-25 absolute" />
 
+      <div class="container mx-auto">
+
+      
         <!-- navbar section -->
         <div class="lg:flex lg:justify-between md:flex md:justify-between 
         mx-10 my-10">
@@ -29,9 +33,9 @@
             
 
             <!-- change language icon link -->
-            <div class="hidden md:block md:w-auto w-full">
-              <div class="text-white z-10 mt-10 h-10">
-                <a href="/arabic"><h3 class="px-3 py-2 text-md font-mono">Ar</h3></a>
+            <div class="hidden md:block md:w-auto w-full z-10">
+              <div class="text-white mt-10 h-10">
+                <NuxtLink to="/arabic"><h3 class="px-3 py-2 text-md font-mono">Ar</h3></NuxtLink>
               </div>
             </div>
             
@@ -56,7 +60,7 @@
           </div>
           
         </div>
-
+      </div>
       </div>
     </div>
 
@@ -66,7 +70,7 @@
 
 
 const menuItems = ref([
-  {title: 'Home', link: '#'},
+  {title: 'Home', link: '/'},
   {title: 'About', link: '#'},
   {title: 'Partner', link: '#'},
   {title: 'Product', link: '#'},
