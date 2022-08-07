@@ -4,7 +4,7 @@
   
       <!-- hader section image background -->
       <img src="img-background.jpeg" alt="header-image" 
-        class="w-full h-full items-center opacity-25 absolute" />
+        class="w-full h-full items-center opacity-30 absolute" />
 
       <div class="container mx-auto">
 
@@ -23,7 +23,7 @@
                       h-10 rounded-md">
                   <ul class="flex items-center">
                     <li v-for="(menuItem, i) in menuItems" :key="i"
-                    class="px-5 py-2 border border-white hover:bg-gray-200 hover:text-[#06A4DF]"
+                    class="px-5 py-2 hover:bg-gray-200 hover:text-[#06A4DF]"
                     :class="{'bg-white text-[#06A4DF]': activeLink == menuItem.title}">
                       <NuxtLink :to="menuItem.link" class="font-normal">{{menuItem.title}}</NuxtLink>
                     </li>
