@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-[#504D4D] w-full text-white">
-    <div class="container mx-auto my-5 pt-5">
+  <div class="bg-[#504D4D] w-full text-white my-0">
+    <div class="container mx-auto pt-5">
       <div class="grid lg:grid-cols-3 md:grid-cols-3 gird-cols-1 mx-2 gap-2">
         <!-- section contact -->
         <div class="py-3 md:pr-3 lg:pr-3">
@@ -24,7 +24,7 @@
         </div>
 
         <!-- section sitemap -->
-        <div class="py-3 lg:px-8 md:px-8">
+        <div class="py-3 lg:px-20 md:px-10">
           <h1 class="font-semibold text-3xl p-1">Site Map</h1>
           <h3 class="font-medium text-xl p-1">All Our Pages</h3>
 

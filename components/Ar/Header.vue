@@ -40,9 +40,9 @@
             </div>
             
              <!-- menu link && change language icon link  in mobile version-->
-          <div class="sm:hidden">
+          <div class="hidden">
             <div class="text-white">
-              hello small size
+             
             </div>
           </div>
            
