@@ -10,15 +10,14 @@
 
       
         <!-- navbar section -->
-        <div class="lg:flex lg:justify-between md:flex md:justify-between 
-        mx-10 my-10">
+        <div class="flex justify-between items-start mx-10 my-10">
             <!-- logo images -->
             <div class="w-[150px] h-[150px]">
               <img src="ngtc-logo.jpeg" alt="" class="rounded-full">
             </div>
 
             <!-- menu link-->
-            <div class="hidden w-full md:block md:w-auto">
+            <div class="hidden w-full lg:block md:block lg:w-auto md:w-auto">
                 <div class="text-white z-10 bg-[#06A4DF] opacity-[60%] mt-10
                       h-10 rounded-md">
                   <ul class="flex items-center">
@@ -33,28 +32,28 @@
             
 
             <!-- change language icon link -->
-            <div class="hidden md:block md:w-auto w-full z-10">
+            <div class="hidden md:block lg:block lg:w-auto md:w-auto z-10">
               <div class="text-white mt-10 h-10">
                 <NuxtLink to="/arabic"><h3 class="px-3 py-2 text-md font-mono">Ar</h3></NuxtLink>
               </div>
             </div>
-            
-             <!-- menu link && change language icon link  in mobile version-->
-          <div class="sm:hidden">
-            <div class="text-white">
-              
+             <!-- change language icon for small size -->
+            <div class="lg:hidden md:hidden z-10 mt-20 mx-5 items-end">
+              <div class="text-white h-10">
+                <NuxtLink to="/arabic"><h3 class="text-end text-md font-mono">Ar</h3></NuxtLink>
+              </div>
             </div>
-          </div>
+  
            
         </div>
         
           <!-- Title && SubTitle Section -->
-        <div class="text-white lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
+        <div class="text-white mt-20 lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
-              <h1 class="md:text-4xl lg:text-5xl text-2xl font-bold">
+              <h1 class="md:text-5xl lg:text-5xl text-[25px] font-bold">
               Nas General Trading Company
             </h1>
-            <h2 class="lg:text-3xl md:text-2xl text-xl font-medium mt-1">
+            <h2 class="lg:text-3xl md:text-2xl text-xl font-medium mt-2">
               One-Stope Supperler For Multi-Products On the Globle Scale
             </h2>
           </div>

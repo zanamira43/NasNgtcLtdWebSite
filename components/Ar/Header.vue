@@ -10,8 +10,7 @@
 
       
         <!-- navbar section -->
-        <div class="lg:flex lg:justify-between md:flex md:justify-between 
-        mx-10 my-10">
+        <div class="flex justify-between mx-10 my-10">
             <!-- logo images -->
             <div class="w-[150px] h-[150px]">
               <img src="ngtc-logo.jpeg" alt="" class="rounded-full">
@@ -33,29 +32,30 @@
             
 
             <!-- change language icon link -->
-            <div class="hidden md:block md:w-auto w-full z-10">
+            <div class="hidden md:block lg:block lg:w-auto md:w-auto z-10">
               <div class="text-white mt-10 h-10">
-                <a href="/"><h3 class="px-3 py-2 text-md font-mono">En</h3></a>
+                <NuxtLink to="/"><h3 class="px-3 py-2 text-md font-mono">En</h3></NuxtLink>
+              </div>
+            </div>
+             <!-- change language icon for small size -->
+            <div class="lg:hidden md:hidden z-10 mt-20 mx-5 items-end">
+              <div class="text-white h-10">
+                <NuxtLink to="/"><h3 class="text-end text-md font-mono">En</h3></NuxtLink>
               </div>
             </div>
             
-             <!-- menu link && change language icon link  in mobile version-->
-          <div class="hidden">
-            <div class="text-white">
-             
-            </div>
-          </div>
+           
            
         </div>
         
           <!-- Title && SubTitle Section -->
-        <div class="text-white lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
+        <div class="text-white mt-20 lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
-              <h1 class="md:text-4xl lg:text-5xl text-2xl font-bold">
+              <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold">
               <!-- Nas General Trading Company -->
               شركة ناس للتجارة العامة
             </h1>
-            <h2 class="lg:text-3xl md:text-2xl text-xl font-medium mt-1">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-medium mt-1">
               <!-- One-Stope Supperler For Multi-Products On the Globle Scale -->
               وقفة واحدة لمنتجات متعددة على النطاق العالمي
             </h2>
