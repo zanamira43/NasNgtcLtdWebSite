@@ -23,7 +23,7 @@
 </template>
 <script setup>
 
-const pImages = ['nas-partner-1.jpeg', 'nas-partner-2.jpeg', 'nas-partner-3.jpeg']
+const pImages = ['/nas-partner-1.jpeg', '/nas-partner-2.jpeg', '/nas-partner-3.jpeg']
 
 </script>
 <style>

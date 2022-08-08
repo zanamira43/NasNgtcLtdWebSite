@@ -4,7 +4,7 @@
       <div class="grid lg:grid-cols-2 md:grid-cols-2 grdi-cols-1 gap-4 xs:mt-8">
         <!-- image section -->
         <div class="rounded-md sm:mx-1">
-          <img src="pexels-pixabay-269077.jpg" alt="">
+          <img src="/pexels-pixabay-269077.jpg" alt="">
         </div>
 
         <!-- about text section -->

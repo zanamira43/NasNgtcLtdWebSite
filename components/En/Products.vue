@@ -32,12 +32,12 @@
 
 const pImages = [
 
-  {img: 'nas-partner-1.jpeg',  title: 'product one'}, 
-  {img: 'nas-partner-2.jpeg',  title: 'product two'}, 
-  {img: 'nas-partner-3.jpeg',  title: 'product three'},
-  {img: 'nas-partner-1.jpeg',  title: 'product four'}, 
-  {img: 'nas-partner-2.jpeg',  title: 'product five'}, 
-  {img: 'nas-partner-3.jpeg',  title: 'product six'},
+  {img: '/nas-partner-1.jpeg',  title: 'product one'}, 
+  {img: '/nas-partner-2.jpeg',  title: 'product two'}, 
+  {img: '/nas-partner-3.jpeg',  title: 'product three'},
+  {img: '/nas-partner-1.jpeg',  title: 'product four'}, 
+  {img: '/nas-partner-2.jpeg',  title: 'product five'}, 
+  {img: '/nas-partner-3.jpeg',  title: 'product six'},
 ]
 
 

@@ -3,7 +3,7 @@
     <div class="border w-full h-[500px] bg-black relative overflow-auto">
   
       <!-- hader section image background -->
-      <img src="img-background.jpeg" alt="header-image" 
+      <img src="/img-background.jpeg" alt="header-image" 
         class="w-full h-full items-center opacity-30 absolute" />
 
       <div class="container mx-auto">
@@ -13,7 +13,7 @@
         <div class="flex justify-between items-start mx-10 my-10">
             <!-- logo images -->
             <div class="w-[150px] h-[150px]">
-              <img src="ngtc-logo.jpeg" alt="" class="rounded-full">
+              <img src="/ngtc-logo.jpeg" alt="" class="rounded-full">
             </div>
 
             <!-- menu link-->
