@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#504D4D] w-full text-white">
-    <div class="container mx-auto my-5 pt-5">
+    <div class="container mx-auto pt-5 px-3">
       <div class="grid lg:grid-cols-3 md:grid-cols-3 gird-cols-1 mx-2 gap-2">
         <!-- section contact -->
         <div class="py-3 md:pr-3 lg:pr-3">
@@ -67,6 +67,8 @@
           <div class="mt-5 text-4xl">
             <a href="#" class="mr-3"><i class="fab fa-facebook"></i></a>
             <a href="#" class="mr-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="mr-3"><i class="fab fa-snapchat"></i></a>
+            <a href="#" class="mr-3"><i class="fab fa-twitter"></i></a>
             
           </div>
         </div>
@@ -82,10 +84,11 @@
     <div class="bg-[#333333] text-white h-auto p-2 text-center">
      <p class="font-medium"> 	
       &#169; 
+      ٢٠٢٢
       
        شركة ناس ، تطوير وتصميم
       من قبل
-      <span class="mr-2 text-gray-400">مطوري شركة ناس</span>
+      <span class="mr-2 text-gray-400 tracking-wider">مطوري شركة ناس</span>
      </p>
     </div>
   </div>

@@ -4,10 +4,10 @@
       <!-- title && sub-title section -->
       <div class="flex flex-col items-center space-y-1 my-5 w-full">
         <h1 class="text-4xl font-bold">
-          Company Products
+            بەرهەمەکانمان
         </h1>
-        <h3 class="md:text-3xl lg:text-3xl text-2xl text-gray-500 font-normal text-center">
-          Our Products in Best Quality For Customers
+        <h3 class="md:text-3xl lg:text-3xl text-2xl text-gray-500 font-normal">
+          کارلەسەر باشترین کوالیتی ئەکەین
         </h3>
       </div>
 
@@ -17,9 +17,9 @@
           <div class="rounded-lg shadow bg-gray-50"
              v-for="product in products" :key="product.id">
              <div>
-               <NuxtLink :to="`/${product.name}`">
+              <NuxtLink :to="`/kurdish/${product.name}`">
                 <img :src="product.image" :alt="product.name" class="w-full h-full" />
-               </NuxtLink> 
+              </NuxtLink>
              </div>
              <div class="flex flex-col items-center py-2 bg-gray-50">
               <p class="font-medium text-lg text-gray-500">{{product.name}}</p>
@@ -31,7 +31,7 @@
   </div>
 </template>
 <script setup>
-import products from '@/data/english.json'
+import products from '@/data/kurdishData.json'
 
 </script>
 <style>

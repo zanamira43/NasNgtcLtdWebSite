@@ -1,5 +1,5 @@
 <template >
-  <div class="bg-[#06A4DF] my-0 p-10 bg-opacity-[10%]">
+  <div class="bg-white my-0 p-10 bg-opacity-[6%]">
     <div class="container mx-auto">
       <!-- title && sub-title section -->
       <div class="flex flex-col items-center space-y-1 my-5 w-full">
@@ -11,11 +11,10 @@
 
       <!-- partner logo or image section -->
       <div class="mt-10">
-        <div class="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-2">
-          <div class="w-full h-full rounded-md shadow"
-          v-for="(pimg, i) in pImages" :key="i">
-           <img :src="pimg" alt="">
-          </div>
+        <div class="flex flex-wrap justify-center gap-8 md:gap-x-10 max-w-2xl mx-auto">
+          <a href="/" class="p-4 shadow-md rounded-md" v-for="(pimg, i) in pImages" :key="i">
+           <img :src="pimg" :alt="pimg" class="w-24 h-24">
+          </a>
         </div>
       </div>
      </div>
@@ -23,7 +22,7 @@
 </template>
 <script setup>
 
-const pImages = ['/nas-partner-1.jpeg', '/nas-partner-2.jpeg', '/nas-partner-3.jpeg']
+const pImages = ['partner/partner1.svg','partner/partner2.svg','partner/partner3.svg','partner/partner4.svg','partner/partner5.svg','partner/partner6.svg','partner/partner7.svg',]
 
 </script>
 <style>

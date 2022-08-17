@@ -1,15 +1,17 @@
 <template>
-  <NuxtLayout>
+  <NuxtLayout name="kurdish">
     <!-- About section component -->
-    <EnAbout />
+    <KuAbout />
 
     <!-- Product section component -->
-    <EnProducts />
+    <KuProducts />
 
     <!-- partner section component -->
-    <EnPartner />
+    <KuPartner />
   </NuxtLayout>
 </template>
-<script setup>
-
+<script>
 </script>
+<style >
+  
+</style>

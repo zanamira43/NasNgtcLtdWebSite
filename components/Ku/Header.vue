@@ -24,7 +24,7 @@
         <div class="flex justify-between mx-10 my-10">
             <!-- logo images -->
             <div class="md:w-[150px] md:h-[150px] lg:w-[150px] lg:h-[150px] w-[120px] h-[120px] z-10">
-              <NuxtLink to="/arabic">
+              <NuxtLink to="/kurdish">
                 <img src="/ngtc-logo.jpeg" alt="" class="rounded-full" />
               </NuxtLink>
             </div>
@@ -50,8 +50,8 @@
               </button>
               <div class="translate-x-3 flex flex-col items-center space-y-3 text-center text-white"
               v-if="langMenu">
-                <NuxtLink to="/"><h3 class="font-mono">الانجليزية</h3></NuxtLink>
-                <NuxtLink to="/kurdish"><h3 class="font-mono">الكردية</h3></NuxtLink>
+                <NuxtLink to="/"><h3 class="font-mono">ئنگلیزی</h3></NuxtLink>
+                <NuxtLink to="/arabic"><h3 class="font-mono">عەرەبی</h3></NuxtLink>
               </div>
             </div>
           
@@ -69,11 +69,11 @@
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
               <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold">
               <!-- Nas General Trading Company -->
-              شركة ناس للتجارة العامة
+                  کۆمپانیای ناس بۆبازرگانی گشتی
             </h1>
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-medium mt-1">
               <!-- One-Stope Supperler For Multi-Products On the Globle Scale -->
-              وقفة واحدة لمنتجات متعددة على النطاق العالمي
+              وێستگەی ئێوەیە بە بەرهەمە جیاوزەکانی لەسەر ئاستی جیهان
             </h2>
           </div>
           
@@ -88,14 +88,14 @@
 
 
 const menuItems = ref([
-  {title: 'الصفحة الرئيسية', link: '/arabic'},
-  {title: 'معلومات عنا', link: '#'},
-  {title: 'شركاء', link: '#'},
-  {title: 'منتجات', link: '#'},
-  {title: 'اتصل بنا', link: '#'},
+  {title: 'ماڵەوە', link: '/arabic'},
+  {title: 'دەربارەی ئێمە', link: '#'},
+  {title: 'هاوبەشەکان', link: '#'},
+  {title: 'بەرهەمەکان', link: '#'},
+  {title: 'پەیوەندی', link: '#'},
 ])
 
-const activeLink = useState('activeLink' ,() => 'الصفحة الرئيسية' )
+const activeLink = useState('activeLink' ,() => 'ماڵەوە' )
 
 const openMenu = ref(false)
 const langMenu = ref(false)

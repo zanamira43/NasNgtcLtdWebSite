@@ -2,10 +2,10 @@
   <div class="bg-white my-0 p-10 bg-opacity-[6%]">
     <div class="container mx-auto">
       <!-- title && sub-title section -->
-      <div class="flex flex-col items-center space-y-1 my-5 w-full">
-        <h1 class="text-4xl font-bold">Our Partner</h1>
-        <h3 class="text-2xl text-gray-500 font-normal text-center">
-          Our Business Partners that we work honestly together
+      <div class="flex flex-col items-center space-y-2 my-5 w-full">
+        <h1 class="text-5xl font-bold">هاوبەشەکانمان</h1>
+        <h3 class="text-3xl text-gray-500 font-norma text-center tracking-wider">
+          بەوپەڕی متمانەوە کارلەگەڵ هاوبەشەکانمائەکەین
         </h3>
       </div>
 

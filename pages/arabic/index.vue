@@ -1,15 +1,18 @@
 <template>
-  <NuxtLayout>
+  <NuxtLayout name="arabic">
     <!-- About section component -->
-    <EnAbout />
+    <ArAbout />
 
     <!-- Product section component -->
-    <EnProducts />
+    <ArProducts />
 
     <!-- partner section component -->
-    <EnPartner />
+    <ArPartner />
   </NuxtLayout>
 </template>
-<script setup>
 
+<script>
+export default {
+  
+}
 </script>
