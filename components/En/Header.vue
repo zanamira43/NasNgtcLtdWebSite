@@ -89,10 +89,10 @@
 
 const menuItems = ref([
   {title: 'Home', link: '/'},
-  {title: 'About', link: '#'},
-  {title: 'Partner', link: '#'},
-  {title: 'Product', link: '#'},
-  {title: 'Contact', link: '#'},
+  {title: 'About', link: 'about'},
+  {title: 'Partner', link: 'partner'},
+  {title: 'Product', link: 'product'},
+  {title: 'Contact', link: 'contact'},
 ])
 
 const activeLink = useState('activeLink' ,() => 'Home' )

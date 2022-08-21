@@ -1,24 +1,30 @@
 <template>
-  <div class="my-20 text-black bg-white">
+  <div name="about" class="my-20 text-black bg-white">
     <div class="container mx-auto">
       <div class="grid lg:grid-cols-2 md:grid-cols-2 grdi-cols-1 gap-4 xs:mt-8">
         <!-- image section -->
         <div class="rounded-md sm:mx-1">
-          <img src="/pexels-pixabay-269077.jpg" alt="">
+        
+          <div class="flex flex-col justify-center items-center my-10">
+            <!-- <img src="/about/pexels-pixabay-269077.jpg" alt=""> -->
+            <img src="/about/about-section-img.jpg" alt="" class="h-[450px]" />
+          </div>
+          
         </div>
 
         <!-- about text section -->
-        <div class="mx-8 my-5">
+        <div class="mx-8">
           <div class="flex flex-col space-y-8">
             <div class="flex flex-col space-y-4">
               <h1 class="font-bold text-4xl capitalize">about us</h1>
               <h3 class="font-semibold text-gray-500 text-2xl">
-                we will be pleased if we present a brief demonstrat about us
+                A short definition of our work and services
               </h3>
             </div>
             <div>
-              <p class="capitalize font-normal text-gray-600 text-xl md:leading-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus hic laboriosam provident tenetur! Reiciendis numquam tenetur reprehenderit fugit neque voluptatibus, ducimus consequatur quos enim repudiandae veritatis ex atque nesciunt nulla!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus hic laboriosam provident tenetur! Reiciendis numquam tenetur reprehenderit fugit neque voluptatibus, ducimus consequatur quos enim repudiandae veritatis ex atque nesciunt nulla!
+              <p class="capitalize font-normal text-gray-800 text-md">Our main focus is to provide everyone with whom we do business with high quality services to improve their lives in a wide variety of ways. We specialise in delivering high quality products and services covering areas such as clothing, household goods, and retail outlets as well as assisting with the development of business ideas and projects. We commit to delivering the highest quality products based on all your needs and requirements.
+              So, if you are looking for changes in clothing and styles of clothing or you want to improve the interior design of your home then do get in touch with us. To summarise, if you are an individual, a homeowner, a retail outlet or if you have a new business idea or project, then we are your first point of contact for everything that you need in terms of innovation, quality, safety, and speed of delivery.
+              We very much look forward to working with you to help and support you to achieve all your goals by delivering the trusted high-quality products and services that you are seeking.
               </p>
             </div>
           </div>

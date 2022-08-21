@@ -1,5 +1,5 @@
 <template >
-  <div class="bg-white my-0 p-10 bg-opacity-[6%]">
+  <div name="partner" class="bg-white my-0 p-10 bg-opacity-[6%]">
     <div class="container mx-auto">
       <!-- title && sub-title section -->
       <div class="flex flex-col items-center space-y-1 my-5 w-full">

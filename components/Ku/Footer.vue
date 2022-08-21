@@ -95,13 +95,35 @@
   </div>
 </template>
 <script setup>
-
-
-
-// const menuItems = ref(['الصفحة الرئيسية','About','Partner','Product','Contact'])
+import emailjs from 'emailjs-com'
 
 const menuItems =  ref(['ماڵەوە', 'دەربارەی ئێمە','هاوبەشەکان',
   'بەرهەمەکان', 'پەیوەندی'])
+
+
+  const fullName = ref('')
+const yourEmail = ref('')
+const message = ref('')
+
+
+const SendEmail = (e) => {
+  try {
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target,
+        'YOUR_USER_ID', {
+          name: fullName.value,
+          email: yourEmail.value,
+          message: message.value
+        })
+
+  } catch(error) {
+      console.log({error})
+  }
+
+// reset form field
+ fullName.value = ''
+ yourEmail.value = ''
+ message.value = ''
+}
 </script>
 <style>
   
