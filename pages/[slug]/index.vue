@@ -10,7 +10,7 @@
               <!-- text section -->
             <div class="flex flex-col space-y-10 p-5">
               <h1 class="font-bold text-neutral-900 text-4xl">{{product.name}}</h1>
-              <p class="font-normal text-gray-500 text-lg leading-8">{{product.description}}</p>
+              <p class="font-normal text-gray-500 text-lg leading-8" v-html="product.description"></p>
             </div>
          </div>
       </div>
@@ -23,8 +23,7 @@ import products from '@/data/english.json'
 const route = useRoute()
 const slug = route.params.slug
 
-const product = products.find((p: any) => p.name === slug)
-
+const product = products.find((p) => p.name === slug)
 
 </script>
 <style>

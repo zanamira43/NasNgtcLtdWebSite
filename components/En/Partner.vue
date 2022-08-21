@@ -22,7 +22,7 @@
 </template>
 <script setup>
 
-const pImages = ['partner/partner1.svg','partner/partner2.svg','partner/partner3.svg','partner/partner4.svg','partner/partner5.svg','partner/partner6.svg','partner/partner7.svg',]
+const pImages = ['partner/partner1.svg','partner/partner2.svg','partner/partner3.svg','partner/partner4.svg','partner/partner5.svg','partner/partner6.svg','partner/partner7.svg']
 
 </script>
 <style>

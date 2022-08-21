@@ -56,19 +56,23 @@
           <!-- phone email -->
           <div class="mt-14 text-start text-xl">
             <p>
-              <i class="fas fa-phone mr-3 -rotate-90"></i> 
-              (08) 200 4000
+              <i class="fas fa-phone ml-3 -rotate-90"></i> 
+             <span> 
+              ٧٨٨٥٨٧١٢٤٨
+              (٤٤+)
+              </span> 
             </p>
             <p class="mt-2">
-              <i class="fas fa-envelope mr-3">
-              </i> email@email.com</p>
+              <i class="fas fa-envelope ml-3">
+              </i> nas.ngtcltd@gmail.com</p>
           </div>
           <!-- social media -->
           <div class="mt-5 text-4xl">
-            <a href="#" class="mr-3"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/people/Nas-Ngtc/100084308235575/" target="_blank" class="mr-3"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/ngtcltd" target="_blank" class="mr-3"><i class="fab fa-twitter"></i></a>
             <a href="#" class="mr-3"><i class="fab fa-instagram"></i></a>
             <a href="#" class="mr-3"><i class="fab fa-snapchat"></i></a>
-            <a href="#" class="mr-3"><i class="fab fa-twitter"></i></a>
+            
             
           </div>
         </div>

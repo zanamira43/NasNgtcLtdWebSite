@@ -22,7 +22,7 @@
                </NuxtLink> 
              </div>
              <div class="flex flex-col items-center py-2 bg-gray-50">
-              <p class="font-medium text-lg text-gray-500">{{product.name}}</p>
+              <p class="font-medium text-lg text-gray-500 capitalize">{{product.name}}</p>
              </div>
           </div>
         </div>

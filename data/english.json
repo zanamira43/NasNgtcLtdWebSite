@@ -1,52 +1,52 @@
 [
   {
     "id": 1,
-    "name": "product one",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+    "name": "Diamond",
+    "description": "We buy and sell Diamond for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
     "image": "/nas-partner-1.jpeg"
   },
   {  
     "id": 2,
-    "name": "product two",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+    "name": "Gold",
+    "description": "We buy and sell Gold for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
     "image": "/nas-partner-2.jpeg"
   }, 
 
   {
     "id": 3,
-    "name": "product three", 
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+    "name": "Sliver", 
+    "description": " We buy and sell Silver for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
     "image": "/nas-partner-3.jpeg"
 },
 
 {
     "id": 4,
-    "name": "product four",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+    "name": "charcoal",
+    "description": "We sell high quality charcoal for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
     "image": "/nas-partner-1.jpeg"
 }, 
 {
   "id": 5,
-  "name": "product five",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+  "name": "Clothes",
+  "description": "We sell high quality Clothes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/nas-partner-2.jpeg"
 }, 
 {
   "id": 6,
-  "name": "product six",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+  "name": "shoes",
+  "description": " We sell high quality, original shoes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/nas-partner-3.jpeg"
 }, 
 {
   "id": 7,
-  "name": "product seven",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+  "name": "cleaning service",
+  "description": " We sell high quality, original cleaning service items for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/nas-partner-2.jpeg"
 }, 
 {
   "id": 8,
-  "name": "product eight",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores reprehenderit at culpa atque, dolorum tempore dignissimos nobis ipsam, aliquid iure accusantium natus quam dolor neque optio dolore cum! Laborum veritatis et sed soluta minima fuga impedit inventore doloremque at, reiciendis esse neque obcaecati voluptatum nemo. Omnis ducimus, perspiciatis dolores quidem optio adipisci explicabo facere consequatur, aspernatur fuga, molestias iure laboriosam obcaecati ipsa quasi. Iure dolorem dignissimos odio quisquam. Maiores quasi et laudantium aliquid sequi soluta unde hic optio deleniti!",
+  "name": "rice",
+  "description": "We sell high quality, natural and healthiest rice for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/nas-partner-3.jpeg"
 }  
 ]

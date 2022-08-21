@@ -70,10 +70,10 @@
         <div class="text-white mt-20 lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
               <h1 class="md:text-5xl lg:text-5xl text-[25px] font-bold">
-              Nas General Trading Company
+              Nas General Trading Company Ltd
             </h1>
             <h2 class="lg:text-3xl md:text-2xl text-xl font-medium mt-2">
-             One-Stope Supperler For Multi-Products On the Globle Scale 
+             One-Stope Supperler For Multi-Products On a Globle Scale 
             </h2>
           </div>
           
