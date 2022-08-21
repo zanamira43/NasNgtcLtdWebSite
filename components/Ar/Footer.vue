@@ -71,7 +71,7 @@
           <div class="mt-5 text-4xl">
             <a href="https://www.facebook.com/Nas-Company-112261894918998" target="_blank" class="mr-3"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/ngtcltd" target="_blank" class="mr-3"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="mr-3"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/nas.ngtcltd/" target="_blank" class="mr-3"><i class="fab fa-instagram"></i></a>
             <a href="#" class="mr-3"><i class="fab fa-snapchat"></i></a>
           </div>
         </div>
