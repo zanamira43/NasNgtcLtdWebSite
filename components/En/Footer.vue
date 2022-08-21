@@ -8,13 +8,13 @@
           <h3 class="font-medium text-xl p-1">Send a Message</h3>
           <div>
             <form class="flex flex-col items-start space-y-5 mt-4" @submit.prevent="SendEmail">
-              <input type="text" placeholder="Full Name" v-model="fullName"
+              <input type="text" placeholder="Full Name" v-model="fullName" name="fullName"
               class="block bg-white w-[80%] border border-slate-300 rounded-md py-2 pl-9 pr-3 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm
               text-black"/>
-              <input type="email" placeholder="Your Email" v-model="yourEmail"
+              <input type="email" placeholder="Your Email" v-model="yourEmail" name="email"
                 class="block bg-white w-[80%] border border-slate-300 rounded-md py-2 pl-9 pr-3 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm
               text-black"/>
-              <textarea  cols="30" rows="10" placeholder="Type Your Message Here" v-model="message"
+              <textarea  cols="30" rows="10" placeholder="Type Your Message Here" v-model="message" name="message"
               class="block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm
               text-black"
               ></textarea>
@@ -93,8 +93,8 @@ const message = ref('')
 
 const SendEmail = (e) => {
   try {
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target,
-        'YOUR_USER_ID', {
+        emailjs.sendForm('default_service', 'template_v7xqada', e.target,
+        'gDZ7stwYK7EC8SC13', {
           name: fullName.value,
           email: yourEmail.value,
           message: message.value
@@ -104,10 +104,10 @@ const SendEmail = (e) => {
       console.log({error})
   }
 
-// reset form field
- fullName.value = ''
- yourEmail.value = ''
- message.value = ''
+  // reset form field
+  fullName.value = ''
+  yourEmail.value = ''
+  message.value = ''
 }
 
 </script>

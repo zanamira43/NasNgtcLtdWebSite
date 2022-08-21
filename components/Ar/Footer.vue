@@ -11,18 +11,21 @@
            ارسل رسالة
           </h3>
           <div>
-            <form class="flex flex-col items-start space-y-5 mt-4">
-              <input type="text" placeholder="الاسم الكامل" 
+            <form class="flex flex-col items-start space-y-5 mt-4" @submit.prevent="SendEmail">
+              <input type="text" placeholder="الاسم الكامل" name="fullName"
+              v-model="fullName"
               class="block bg-white w-[80%] border border-slate-300 rounded-md py-2 pl-9 pr-3 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm
               text-black"/>
-              <input type="email" placeholder="بريدك الالكتروني" 
+              <input type="email" placeholder="بريدك الالكتروني" name="email"
+                v-model="yourEmail"
                 class="block bg-white w-[80%] border border-slate-300 rounded-md py-2 pl-9 pr-3 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm
               text-black"/>
-              <textarea  cols="30" rows="10" placeholder="اكتب رسالتك هنا"
+              <textarea  cols="30" rows="10" placeholder="اكتب رسالتك هنا" name="message"
+              v-model="message"
               class="block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm
               text-black"
               ></textarea>
-              <button class="block py-2 px-5 bg-black rounded-md">إرسال</button>
+              <button type="submit" class="block py-2 px-5 bg-black rounded-md">إرسال</button>
             </form>
           </div>
         </div>
@@ -115,8 +118,8 @@ const message = ref('')
 
 const SendEmail = (e) => {
   try {
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target,
-        'YOUR_USER_ID', {
+         emailjs.sendForm('default_service', 'template_v7xqada', e.target,
+        'gDZ7stwYK7EC8SC13', {
           name: fullName.value,
           email: yourEmail.value,
           message: message.value
