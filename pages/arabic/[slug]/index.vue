@@ -4,13 +4,13 @@
       <div class="container mx-auto">
          <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 justify-center gap-8 md:gap-x-10 mx-auto">
              <!-- image section -->
-            <div class="rounded-lg shadow-lg">
+            <div>
               <img :src="product.image" :alt="product.name"  class="w-full h-full"/>
             </div>
               <!-- text section -->
             <div class="flex flex-col space-y-10 p-5">
               <h1 class="font-bold text-neutral-900 text-4xl">{{product.name}}</h1>
-              <p class="font-normal text-gray-500 text-lg leading-8">{{product.description}}</p>
+              <p class="font-normal text-gray-800 text-2xl leading-8" v-html="product.description"></p>
             </div>
          </div>
       </div>
@@ -22,6 +22,7 @@ import products from '@/data/arabicData.json'
 
 const route = useRoute()
 const slug = route.params.slug
+
 
 const product = products.find((p: any) => p.name === slug)
 

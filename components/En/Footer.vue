@@ -57,7 +57,7 @@
           </div>
           <!-- social media -->
           <div class="mt-5 text-4xl flex space-x-4">
-            <a href="https://www.facebook.com/people/Nas-Ngtc/100084308235575/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/Nas-Company-112261894918998" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/ngtcltd" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-snapchat"></i></a>

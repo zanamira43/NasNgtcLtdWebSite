@@ -3,50 +3,50 @@
     "id": 1,
     "name": "Diamond",
     "description": "We buy and sell Diamond for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-    "image": "/nas-partner-1.jpeg"
+    "image": "/product/diamond.png"
   },
   {  
     "id": 2,
     "name": "Gold",
     "description": "We buy and sell Gold for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-    "image": "/nas-partner-2.jpeg"
+    "image": "/product/gold.jpg"
   }, 
 
   {
     "id": 3,
-    "name": "Sliver", 
+    "name": "Silver", 
     "description": " We buy and sell Silver for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-    "image": "/nas-partner-3.jpeg"
+    "image": "/product/silver.jpg"
 },
 
 {
     "id": 4,
     "name": "charcoal",
     "description": "We sell high quality charcoal for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-    "image": "/nas-partner-1.jpeg"
+    "image": "/product/charcoal.png"
 }, 
 {
   "id": 5,
   "name": "Clothes",
   "description": "We sell high quality Clothes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-  "image": "/nas-partner-2.jpeg"
+  "image": "/product/clothes.jpg"
 }, 
 {
   "id": 6,
   "name": "shoes",
   "description": " We sell high quality, original shoes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-  "image": "/nas-partner-3.jpeg"
+  "image": "/product/shoes.jpg"
 }, 
 {
   "id": 7,
   "name": "cleaning service",
   "description": " We sell high quality, original cleaning service items for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-  "image": "/nas-partner-2.jpeg"
+  "image": "/product/cleaning.jpeg"
 }, 
 {
   "id": 8,
   "name": "rice",
   "description": "We sell high quality, natural and healthiest rice for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-  "image": "/nas-partner-3.jpeg"
+  "image": "/product/rice.jpg"
 }  
 ]
