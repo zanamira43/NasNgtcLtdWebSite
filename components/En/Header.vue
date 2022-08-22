@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
     <div class="border w-full h-[500px] bg-black relative overflow-auto">
 
       <!-- menu panel for mobile version -->
@@ -37,7 +37,7 @@
                 <ul class="flex items-center">
                   <li v-for="(menuItem, i) in menuItems" :key="i"
                   class="px-5 py-2 hover:bg-gray-200 hover:text-[#06A4DF]"
-                  :class="{'bg-white text-[#06A4DF]': activeLink == menuItem.title}">
+                  :class="`${activeLink == menuItem.title ? 'bg-white text-[#06A4DF]' : ''}`">
                     <a :href="menuItem.link" class="font-normal">{{menuItem.title}}</a>
                   </li>
                 </ul>
@@ -80,7 +80,7 @@
         </div>
       </div>
       </div>
-    </div>
+  </header>
 
 </template>
 <script setup>
@@ -96,10 +96,7 @@ const menuItems = ref([
 const openMenu = ref(false)
 const langMenu = ref(false)
 
-const activeLink = useState('activeLink' ,() => 'Home')
-
-
-
+const activeLink = ref('Home')
 
 
 </script>
