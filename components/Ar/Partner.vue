@@ -23,13 +23,13 @@
 <script setup>
 
 const pImages = [
-  '../../public/partner/partner1.svg',
-  '../../public/partner/partner2.svg',
-  '../../public/partner/partner3.svg',
-  '../../public/partner/partner4.svg',
-  '../../public/partner/partner5.svg',
-  '../../public/partner/partner6.svg',
-  '../../public/partner/partner7.svg'
+  '/assets/partner/partner1.svg',
+  '/assets/partner/partner2.svg',
+  '/assets/partner/partner3.svg',
+  '/assets/partner/partner4.svg',
+  '/assets/partner/partner5.svg',
+  '/assets/partner/partner6.svg',
+  '/assets/partner/partner7.svg'
 ]
 
 </script>
