@@ -1,5 +1,5 @@
 <template >
-  <div class="bg-[#06A4DF] my-0 p-10 bg-opacity-[10%]">
+  <div id="arProduct" class="bg-[#06A4DF] my-0 p-10 bg-opacity-[10%]">
     <div class="container mx-auto">
       <!-- title && sub-title section -->
       <div class="flex flex-col items-center space-y-1 my-5 w-full">

@@ -1,4 +1,5 @@
 <template>
+<div>
   <NuxtLayout name="arabic">
     <!-- About section component -->
     <ArAbout />
@@ -9,6 +10,7 @@
     <!-- partner section component -->
     <ArPartner />
   </NuxtLayout>
+</div>
 </template>
 
 <script>

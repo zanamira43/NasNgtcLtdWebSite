@@ -1,5 +1,5 @@
 <template >
-  <div class="bg-white my-0 p-10 bg-opacity-[6%]">
+  <div id="kuPartner" class="bg-white my-0 p-10 bg-opacity-[6%]">
     <div class="container mx-auto">
       <!-- title && sub-title section -->
       <div class="flex flex-col items-center space-y-2 my-5 w-full">
@@ -22,7 +22,7 @@
 </template>
 <script setup>
 
-const pImages = ['partner/partner1.svg','partner/partner2.svg','partner/partner3.svg','partner/partner4.svg','partner/partner5.svg','partner/partner6.svg','partner/partner7.svg',]
+const pImages = ['/public/partner/partner1.svg','/public/partner/partner2.svg','/public/partner/partner3.svg','/public/partner/partner4.svg','/public/partner/partner5.svg','/public/partner/partner6.svg','/public/partner/partner7.svg',]
 
 </script>
 <style>

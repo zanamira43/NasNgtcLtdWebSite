@@ -10,7 +10,7 @@
             <li v-for="(menuItem, i) in menuItems" :key="i"
             class="px-5 py-5 hover:bg-gray-500 hover:text-white hover:rounded-md"
             :class="{'bg-gray-800 rounded-md': activeLink == menuItem.title}">
-              <NuxtLink :to="menuItem.link" class="font-normal">{{menuItem.title}}</NuxtLink>
+              <a :href="menuItem.link" class="font-normal">{{menuItem.title}}</a>
             </li>
         </ul>
       </div>
@@ -38,7 +38,7 @@
                   <li v-for="(menuItem, i) in menuItems" :key="i"
                   class="px-5 py-2 hover:bg-gray-200 hover:text-[#06A4DF]"
                   :class="{'bg-white text-[#06A4DF]': activeLink == menuItem.title}">
-                    <NuxtLink :to="menuItem.link" class="font-normal">{{menuItem.title}}</NuxtLink>
+                    <a :href="menuItem.link" class="font-normal">{{menuItem.title}}</a>
                   </li>
                 </ul>
               </div>
@@ -85,20 +85,23 @@
 </template>
 <script setup>
 
-
-
 const menuItems = ref([
   {title: 'Home', link: '/'},
-  {title: 'About', link: '#about'},
-  {title: 'Partner', link: '#partner'},
-  {title: 'Product', link: '#product'},
-  {title: 'Contact', link: '#contact'},
+  {title: 'About', link: '/#about'},
+  {title: 'Product', link: '/#product'},
+  {title: 'Partner', link: '/#partner'},
+  {title: 'Contact', link: '/#contact'},
 ])
 
-const activeLink = useState('activeLink' ,() => 'Home' )
 const openMenu = ref(false)
 const langMenu = ref(false)
+
+const activeLink = useState('activeLink' ,() => 'Home')
+
+
+
+
+
 </script>
 <style>
-  
 </style>

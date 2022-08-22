@@ -1,5 +1,5 @@
 <template>
-  <div class="my-20 text-black bg-white">
+  <div id="arAbout" class="my-20 text-black bg-white">
     <div class="container mx-auto">
       <div class="grid lg:grid-cols-2 md:grid-cols-2 grdi-cols-1 gap-4 xs:mt-8">
         <!-- image section -->

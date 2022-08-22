@@ -1,5 +1,6 @@
 <template>
-  <NuxtLayout name="kurdish">
+<div>
+   <NuxtLayout name="kurdish">
     <!-- About section component -->
     <KuAbout />
 
@@ -9,6 +10,7 @@
     <!-- partner section component -->
     <KuPartner />
   </NuxtLayout>
+</div>
 </template>
 <script>
 </script>

@@ -1,5 +1,6 @@
 <template>
-  <NuxtLayout>
+ <div>
+    <NuxtLayout>
     <!-- About section component -->
     <EnAbout />
 
@@ -9,6 +10,7 @@
     <!-- partner section component -->
     <EnPartner />
   </NuxtLayout>
+ </div>
 </template>
 <script setup>
 

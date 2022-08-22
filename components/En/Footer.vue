@@ -1,5 +1,5 @@
 <template>
-  <div name="contact" class="bg-[#504D4D] w-full text-white my-0">
+  <div id="contact" class="bg-[#504D4D] w-full text-white my-0">
     <div class="container mx-auto pt-5">
       <div class="grid lg:grid-cols-3 md:grid-cols-3 gird-cols-1 mx-2 gap-2">
         <!-- section contact -->
@@ -60,7 +60,7 @@
             <a href="https://www.facebook.com/Nas-Company-112261894918998" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/ngtcltd" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/nas.ngtcltd/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-snapchat"></i></a>
+            <a href="https://www.snapchat.com/add/ngtcltd" target="_blank"><i class="fab fa-snapchat"></i></a>
             
 
             
