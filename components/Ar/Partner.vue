@@ -22,7 +22,15 @@
 </template>
 <script setup>
 
-const pImages = ['/public/partner/partner1.svg','/public/partner/partner2.svg','/public/partner/partner3.svg','/public/partner/partner4.svg','/public/partner/partner5.svg','/public/partner/partner6.svg','/public/partner/partner7.svg']
+const pImages = [
+  '/public/partner/partner1.svg',
+  '/public/partner/partner2.svg',
+  '/public/partner/partner3.svg',
+  '/public/partner/partner4.svg',
+  '/public/partner/partner5.svg',
+  '/public/partner/partner6.svg',
+  '/public/partner/partner7.svg'
+]
 
 </script>
 <style>
