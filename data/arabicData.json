@@ -27,24 +27,30 @@
 }, 
 {
   "id": 5,
+  "name": " قفازات",
+  "description": " نبيع قفازات عالية الجودة وأعلى كفاءة لمزيد من التفاصيل ، يرجى الاتصال بنا <br>الجوال: 00447885871248 <br> WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER <br>البريدالأكتروني: nas.ngtcltd@gmail.com",
+  "image": "/product/gloves/GLOVES-ORDER-PICTURES-ARABIC.jpg"
+}, 
+{
+  "id": 5,
   "name": " ملابس",
   "description": " نحن نبيع ملابس عالية الجودة لمزيد من التفاصيل يرجى الاتصال بنا <br>الجوال: 00447885871248 <br> WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER <br>البريدالأكتروني: nas.ngtcltd@gmail.com",
   "image": "/product/clothes.jpg"
 }, 
 {
-  "id": 6,
+  "id": 7,
   "name": " أحذية",
   "description": " نحن نبيع أحذية أصلية عالية الجودة لمزيد من التفاصيل يرجى الاتصال بنا <br>الجوال: 00447885871248 <br> WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER <br>البريدالأكتروني: nas.ngtcltd@gmail.com",
   "image": "/product/shoes.jpg"
 }, 
 {
-  "id": 7,
+  "id": 8,
   "name": " خدمة التنظيف",
   "description": " نحن نبيع مواد خدمة التنظيف الأصلية عالية الجودة لمزيد من التفاصيل يرجى الاتصال بنا  <br>الجوال: 00447885871248 <br> WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER <br>البريدالأكتروني: nas.ngtcltd@gmail.com",
   "image": "/product/cleaning.jpeg"
 }, 
 {
-  "id": 8,
+  "id": 9,
   "name": " أرز",
   "description":" نحن نبيع الأرز عالي الجودة والطبيعي والأكثر صحة لمزيد من التفاصيل يرجى الاتصال بنا <br>الجوال: 00447885871248 <br> WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER <br>البريدالأكتروني: nas.ngtcltd@gmail.com",
   "image": "/product/rice.jpg"

@@ -1,4 +1,5 @@
 [
+
   {
     "id": 1,
     "name": "Diamond",
@@ -27,24 +28,30 @@
 }, 
 {
   "id": 5,
+  "name": "Gloves",
+  "description": "We Sell High Quality Top Gloves Tot Quality, Top Efficiency for more details please contact us <br>Mobile: 00447885871248NAS. <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
+  "image": "/product/gloves/GLOVES-ORDER-PICTURES-ENGLISH.jpg"
+},
+{
+  "id": 6,
   "name": "Clothes",
   "description": "We sell high quality Clothes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/clothes.jpg"
 }, 
 {
-  "id": 6,
+  "id": 7,
   "name": "shoes",
   "description": " We sell high quality, original shoes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/shoes.jpg"
 }, 
 {
-  "id": 7,
+  "id": 8,
   "name": "cleaning service",
   "description": " We sell high quality, original cleaning service items for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/cleaning.jpeg"
 }, 
 {
-  "id": 8,
+  "id": 9,
   "name": "rice",
   "description": "We sell high quality, natural and healthiest rice for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/rice.jpg"
