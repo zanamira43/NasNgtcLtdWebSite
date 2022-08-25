@@ -9,8 +9,8 @@
         <ul class="flex flex-col items-center w-full mt-10">
             <li v-for="(menuItem, i) in menuItems" :key="i"
             class="px-5 py-5 hover:bg-gray-500 hover:text-white hover:rounded-md"
-            :class="{'bg-gray-800 rounded-md': activeLink == menuItem.title}">
-              <a :href="menuItem.link" class="font-normal">{{menuItem.title}}</a>
+            :class="{'bg-gray-800 rounded-md': activeLink === menuItem.title}">
+              <a :href="menuItem.link" @click="activeLink = menuItem.title" class="font-normal">{{menuItem.Artitle}}</a>
             </li>
         </ul>
       </div>
@@ -37,7 +37,7 @@
                     <li v-for="(menuItem, i) in menuItems" :key="i"
                     class="px-5 py-2 hover:bg-gray-200 hover:text-[#06A4DF]"
                     :class="{'bg-white text-[#06A4DF]': activeLink === menuItem.title}">
-                      <a :href="menuItem.link" class="font-bold">{{menuItem.title}}</a>
+                      <a :href="menuItem.link" @click="activeLink = menuItem.title" class="font-bold">{{menuItem.Artitle}}</a>
                     </li>
                   </ul>
                 </div>
@@ -85,20 +85,20 @@
 </template>
 <script setup>
 
-const activeLink = useState('activeLink' ,() => 'الصفحة الرئيسية' )
+
+
+const menuItems = ref([
+  {Artitle: 'الصفحة الرئيسية', link: '/arabic', title: 'Home'},
+  {Artitle: 'معلومات عنا', link: '/arabic/#arAbout', title: 'About'},
+   {Artitle: 'منتجات', link: '/arabic/#arProduct', title: 'Product'},
+  {Artitle: 'شركاء', link: '/arabic/#arPartner', title: 'Partner'},
+  {Artitle: 'اتصل بنا', link: '/arabic/#arContact', title: 'Contact'},
+])
+
+const activeLink = useState('activeLink' ,() => 'Home' )
 
 const openMenu = ref(false)
 const langMenu = ref(false)
-
-const menuItems = ref([
-  {title: 'الصفحة الرئيسية', link: '/arabic'},
-  {title: 'معلومات عنا', link: '/arabic/#arAbout'},
-   {title: 'منتجات', link: '/arabic/#arProduct'},
-  {title: 'شركاء', link: '/arabic/#arPartner'},
-  {title: 'اتصل بنا', link: '/arabic/#arContact'},
-])
-
-
 </script>
 <style>
   

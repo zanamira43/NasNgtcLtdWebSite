@@ -9,8 +9,8 @@
         <ul class="flex flex-col items-center w-full mt-10">
             <li v-for="(menuItem, i) in menuItems" :key="i"
             class="px-5 py-5 hover:bg-gray-500 hover:text-white hover:rounded-md"
-            :class="{'bg-gray-800 rounded-md': activeLink == menuItem.title}">
-              <a :href="menuItem.link" class="font-normal">{{menuItem.title}}</a>
+            :class="{'bg-gray-800 rounded-md': activeLink === menuItem.title}">
+              <a :href="menuItem.link" @click="activeLink= menuItem.title" class="font-normal">{{menuItem.title}}</a>
             </li>
         </ul>
       </div>
@@ -37,8 +37,8 @@
                 <ul class="flex items-center">
                   <li v-for="(menuItem, i) in menuItems" :key="i"
                   class="px-5 py-2 hover:bg-gray-200 hover:text-[#06A4DF]"
-                  :class="`${activeLink == menuItem.title ? 'bg-white text-[#06A4DF]' : ''}`">
-                    <a :href="menuItem.link" class="font-normal">{{menuItem.title}}</a>
+                  :class="`${activeLink === menuItem.title ? 'bg-white text-[#06A4DF]' : ''}`">
+                    <a :href="menuItem.link" @click="activeLink= menuItem.title" class="font-normal">{{menuItem.title}}</a>
                   </li>
                 </ul>
               </div>
@@ -93,10 +93,13 @@ const menuItems = ref([
   {title: 'Contact', link: '/#contact'},
 ])
 
+const activeLink = useState('activeLink' ,() => 'Home' )
+
 const openMenu = ref(false)
 const langMenu = ref(false)
 
-const activeLink = ref('Home')
+// const activeLink = ref('Home')
+
 
 
 </script>
