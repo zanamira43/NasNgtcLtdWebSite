@@ -67,7 +67,7 @@
           <!-- Title && SubTitle Section -->
         <div class="text-white mt-20 lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
-              <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold">
+              <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold text-center">
               <!-- Nas General Trading Company -->
                   کۆمپانیای ناس بۆبازرگانی گشتی
             </h1>

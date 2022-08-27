@@ -9,7 +9,7 @@
             </div>
               <!-- text section -->
             <div class="flex flex-col space-y-10 p-5">
-              <h1 class="font-bold text-neutral-900 text-4xl">{{product.name}}</h1>
+              <h1 class="font-bold text-neutral-900 text-4xl capitalize">{{product.name}}</h1>
               <p class="font-normal text-gray-800 text-2xl" v-html="product.description"></p>
             </div>
          </div>

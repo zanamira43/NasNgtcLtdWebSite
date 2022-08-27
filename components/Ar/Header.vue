@@ -67,7 +67,7 @@
           <!-- Title && SubTitle Section -->
         <div class="text-white mt-20 lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
-              <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold">
+              <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold text-center">
               <!-- Nas General Trading Company -->
               شركة ناس للتجارة العامة
             </h1>
@@ -75,6 +75,9 @@
               <!-- One-Stope Supperler For Multi-Products On the Globle Scale -->
               وقفة واحدة لمنتجات متعددة على النطاق العالمي
             </h2>
+            <p class="text-center md:text-xl lg:text-2xl font-thin mt-1">
+              شركة ناس لكل الناس
+            </p>
           </div>
           
         </div>

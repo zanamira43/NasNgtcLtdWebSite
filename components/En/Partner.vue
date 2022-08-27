@@ -22,14 +22,25 @@
 </template>
 <script setup>
 
+// const pImages = [
+//   '/partner1.svg',
+//   '/partner2.svg',
+//   '/partner3.svg',
+//   '/partner4.svg',
+//   '/partner5.svg',
+//   '/partner6.svg',
+//   '/partner7.svg',
+
+// ]
+
 const pImages = [
-  '/partner1.svg',
-  '/partner2.svg',
-  '/partner3.svg',
-  '/partner4.svg',
-  '/partner5.svg',
-  '/partner6.svg',
-  '/partner7.svg',
+  '/partner/partner1.jpeg',
+  '/partner/partner2.jpeg',
+  '/partner/partner3.jpeg',
+  '/partner/partner4.jpeg',
+  '/partner/partner5.jpeg',
+  '/partner/partner6.jpeg',
+  '/partner/partner7.jpeg',
 
 ]
 
