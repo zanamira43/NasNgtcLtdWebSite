@@ -13,8 +13,8 @@
 </div>
 </template>
 
-<script>
-export default {
-  
-}
+<script setup>
+useMeta({
+  title: "شركة ناس"
+})
 </script>

@@ -12,7 +12,10 @@
   </NuxtLayout>
 </div>
 </template>
-<script>
+<script setup>
+useMeta({
+  title: " کۆمپانیای ناس"
+})
 </script>
 <style >
   

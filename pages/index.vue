@@ -13,5 +13,7 @@
  </div>
 </template>
 <script setup>
-
+useMeta({
+  title: "Nas LTD"
+})
 </script>

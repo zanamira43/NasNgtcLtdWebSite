@@ -25,7 +25,9 @@ const slug = route.params.slug
 
 const product = products.find((p: any) => p.name === slug)
 
-
+useMeta({
+  title: " کۆمپانیای ناس" + "- " + `${slug}`
+})
 </script>
 <style>
   

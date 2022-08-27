@@ -10,8 +10,7 @@
     <EnFooter />
   </div>
 </template>
-<script>
-
+<script setup>
 </script>
 <style>
   
