@@ -67,11 +67,11 @@
           <!-- Title && SubTitle Section -->
         <div class="text-white mt-20 lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
-              <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold text-center">
+              <h1 class="lg:text-5xl md:text-5xl text-3xl font-bold text-center">
               <!-- Nas General Trading Company -->
                   کۆمپانیای ناس بۆبازرگانی گشتی
             </h1>
-            <h2 class="text-2xl md:text-3xl lg:text-4xl font-medium mt-1">
+            <h2 class="md:text-3xl lg:text-4xl text-xl font-medium mt-2">
               <!-- One-Stope Supperler For Multi-Products On the Globle Scale -->
               وێستگەی ئێوەیە بە بەرهەمە جیاوزەکانی لەسەر ئاستی جیهان
             </h2>

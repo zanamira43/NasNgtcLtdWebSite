@@ -69,10 +69,10 @@
           <!-- Title && SubTitle Section -->
         <div class="text-white mt-20 lg:mt-[80px] md:mt-[80px] mx-4 items-center grid">
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
-              <h1 class="md:text-4xl lg:text-4xl font-bold text-center">
+              <h1 class="md:text-4xl lg:text-4xl text-2xl font-bold text-center">
               Nas General Trading Company Ltd
             </h1>
-            <h2 class="lg:text-3xl md:text-3xl text-xl font-medium mt-2">
+            <h2 class="lg:text-3xl md:text-3xl text-md font-medium mt-2">
              One-Stope Supperler For Multi-Products On a Globle Scale 
             </h2>
           </div>
