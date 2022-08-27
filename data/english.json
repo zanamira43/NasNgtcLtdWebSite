@@ -24,7 +24,7 @@
     "id": 4,
     "name": "charcoal",
     "description": "We sell high quality charcoal for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-    "image": "/product/charcoal.png"
+    "image": "/product/charcoal/CHARCOAL-PICTURE-ENGLISH.jpg"
 }, 
 {
   "id": 5,
@@ -41,14 +41,14 @@
 {
   "id": 7,
   "name": "shoes",
-  "description": " We sell high quality, original shoes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-  "image": "/product/shoes.jpg"
+  "description": " We sell high quality Shoes for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
+  "image": "/product/shoes/shoes-PICTURE-ENGLISH.jpg"
 }, 
 {
   "id": 8,
   "name": "cleaning service",
-  "description": " We sell high quality, original cleaning service items for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
-  "image": "/product/cleaning.jpeg"
+  "description": " Selling high quality cleaning products for more details please contact us <br>Mobile: 00447885871248NAS. <br>NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
+  "image": "/product/cleaning/CLEANING-PICTURE-ENGLISH.jpg"
 }, 
 {
   "id": 9,
