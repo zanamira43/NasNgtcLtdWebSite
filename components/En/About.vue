@@ -26,6 +26,16 @@
               So, if you are looking for changes in clothing and styles of clothing or you want to improve the interior design of your home then do get in touch with us. To summarise, if you are an individual, a homeowner, a retail outlet or if you have a new business idea or project, then we are your first point of contact for everything that you need in terms of innovation, quality, safety, and speed of delivery.
               We very much look forward to working with you to help and support you to achieve all your goals by delivering the trusted high-quality products and services that you are seeking.
               </p>
+              <div class="flex space-x-10 justify-center items-center">
+              
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12 px-2 hidden" />
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+            </div>
+            <div>
+                <p>Do not hesitate to contact us, we thank you for shopping with us</p>
+            </div>
             </div>
           </div>
         </div>

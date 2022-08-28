@@ -25,6 +25,16 @@
               کۆمپانیای ناس بۆ بازرگانی گشتی.
 
               </p>
+              <div class="flex space-x-10 justify-center items-center">
+              
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12 px-2 hidden" />
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+              <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+            </div>
+            <div>
+                <p>دوودڵ مەبن لە پەیوەندیکردنتان، سوپاستان دەکەین بۆ بازاڕکردن لەگەڵ ئێمە</p>
+            </div>
             </div>
           </div>
         </div>

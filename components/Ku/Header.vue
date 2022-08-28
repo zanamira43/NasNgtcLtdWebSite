@@ -16,8 +16,10 @@
       </div>
   
       <!-- hader section image background -->
-      <img src="/img-background.jpeg" alt="header-image" 
-        class="w-full h-full items-center opacity-25 absolute" />
+      <!-- <img src="/img-background.jpeg" alt="header-image" 
+        class="w-full h-full items-center opacity-25 absolute" /> -->
+        <img src="/nas-tld-global-bg-img.jpeg" alt="header-image" 
+        class="w-full h-full items-center opacity-40 absolute" />
 
       <div class="container mx-auto">      
         <!-- navbar section -->

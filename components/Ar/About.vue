@@ -27,6 +27,16 @@
                 نشكركم للتسوق معنا 
                   ناس لكل الناس
               </p>
+              <div class="flex space-x-10 justify-center items-center">
+              
+                <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12 px-2 hidden" />
+                <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+                <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+                <img src="/about/flower-icon-two.png" alt="flower" class="w-12 h-12" />
+              </div>
+              <div>
+                  <p>لاتتردوا في الاتصال بنا الي نشكركم للتسوق معنا</p>
+              </div>
             </div>
           </div>
         </div>

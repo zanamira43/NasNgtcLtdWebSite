@@ -16,8 +16,10 @@
       </div>
   
       <!-- hader section image background -->
-      <img src="/img-background.jpeg" alt="header-image" 
-        class="w-full h-full items-center opacity-25 absolute" />
+      <!-- <img src="/img-background.jpeg" alt="header-image" 
+        class="w-full h-full items-center opacity-25 absolute" /> -->
+        <img src="/nas-tld-global-bg-img.jpeg" alt="header-image" 
+        class="w-full h-full items-center opacity-40 absolute" />
 
       <div class="container mx-auto">      
         <!-- navbar section -->
@@ -73,10 +75,10 @@
             </h1>
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-medium mt-1">
               <!-- One-Stope Supperler For Multi-Products On the Globle Scale -->
-              وقفة واحدة لمنتجات متعددة على النطاق العالمي
+              جسرتجاري ممتد بين القارات لتلبية حاجات الناس
             </h2>
             <p class="text-center md:text-xl lg:text-2xl font-thin mt-1">
-              شركة ناس لكل الناس
+               ناس لكل الناس
             </p>
           </div>
           
