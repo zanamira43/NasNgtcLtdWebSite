@@ -19,39 +19,46 @@
     "description": " We buy and sell Silver for more details please contact us <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
     "image": "/product/silver.jpg"
 },
+{
+  "id": 4,
+  "name": "solar",
+  "description": "Sell best Solar Panels High Quality and Lowest Price،for more details please contact us <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
+  "image": "/product/solar/sell-best-Solar-panels.jpg"
+}, 
 
 {
-    "id": 4,
+    "id": 5,
     "name": "charcoal",
     "description": "We sell high quality charcoal for more details please contact us <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
     "image": "/product/charcoal/CHARCOAL-PICTURE-ENGLISH.jpg"
 }, 
+
 {
-  "id": 5,
+  "id": 6,
   "name": "Gloves",
   "description": "We Sell High Quality Top Gloves Tot Quality, Top Efficiency for more details please contact us <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/gloves/GLOVES-ORDER-PICTURES-ENGLISH.jpg"
 },
 {
-  "id": 6,
+  "id": 7,
   "name": "Clothes",
   "description": "We sell high quality Clothes for more details please contact us <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/clothes/clothse-order-pictures-english.jpg"
 }, 
 {
-  "id": 7,
+  "id": 8,
   "name": "shoes",
   "description": " We sell high quality Shoes for more details please contact us <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/shoes/shoes-PICTURE-ENGLISH.jpg"
 }, 
 {
-  "id": 8,
+  "id": 9,
   "name": "cleaning service",
   "description": " Selling high quality cleaning products for more details please contact us <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/cleaning/CLEANING-PICTURE-ENGLISH.jpg"
 }, 
 {
-  "id": 9,
+  "id": 10,
   "name": "rice",
   "description": "NAS RICE <br /> The Best Natural Rice in the world gets in our stores We have always tried to bring the best and highest quality rice in all countries that produce the best natural rice to our stores so that it can be easy for everyone, and they can always get it easily.<br /> For more information, you can contact us. We are at your service <br>Mobile: 00447885871248 <br>NAS.NGTCLTD: WHATS UP- ZALO- LINE-IMO- FACETIME- VIBER. <br>Email: nas.ngtcltd@gmail.com",
   "image": "/product/rice/SELLING-RICE-picture-ENGLISH.jpg"
