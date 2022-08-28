@@ -16,7 +16,7 @@
       </div>
 
       <!-- hader section image background -->
-        <img src="/nas-tld-global-bg-img.jpeg" alt="header-image" 
+        <img src="/ngtc-header-bg-image.jpg" alt="header-image" 
         class="w-full h-full items-center opacity-40 absolute" />
 
       <div class="container mx-auto">  
