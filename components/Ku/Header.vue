@@ -71,12 +71,12 @@
           <div class="grid-cols-1 gap-1 mx-auto w-5/2">
               <h1 class="lg:text-5xl md:text-5xl text-3xl font-bold text-center">
               <!-- Nas General Trading Company -->
-                  کۆمپانیای ناس بۆبازرگانی گشتی
+                  کۆمپانیای ناس بۆ بازرگانی گشتی
             </h1>
             <h2 class="md:text-3xl lg:text-4xl text-xl font-medium mt-2">
               <!-- One-Stope Supperler For Multi-Products On the Globle Scale -->
               <!-- وێستگەی ئێوەیە بە بەرهەمە جیاوزەکانی لەسەر ئاستی جیهان -->
-              پردێکی بازرگانی کە لە نێوان کیشوەرەکاندا درێژ دەبێتەوە بۆ دابینکردنی پێداویستییەکانی خەڵک
+              پردێکی بازرگانی کە لە نێوان کیشوەرەکاندا بۆ دابینکردنی پێداویستییەکانی مرۆڤ
             </h2>
           </div>
           

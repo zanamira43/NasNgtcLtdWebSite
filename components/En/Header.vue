@@ -75,8 +75,7 @@
               Nas General Trading Company Ltd
             </h1>
             <h2 class="lg:text-3xl md:text-3xl text-md font-medium mt-2">
-             <!-- One-Stope Supperler For Multi-Products On a Globle Scale  -->
-             A commercial bridge extending between continents to meet the needs of people
+             One-Stope Supperler For Multi-Products On a Globle Scale 
             </h2>
           </div>
           
