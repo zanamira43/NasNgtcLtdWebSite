@@ -16,8 +16,6 @@
       </div>
 
       <!-- hader section image background -->
-      <!-- <img src="/img-background.jpeg" alt="header-image" 
-        class="w-full h-full items-center opacity-30 absolute" /> -->
         <img src="/nas-tld-global-bg-img.jpeg" alt="header-image" 
         class="w-full h-full items-center opacity-40 absolute" />
 
@@ -25,7 +23,7 @@
         <!-- navbar section -->
         <div class="flex justify-between items-start mx-10 my-10">
             <!-- logo images -->
-            <div class="md:w-[150px] md:h-[150px] lg:w-[150px] lg:h-[150px] w-[120px] h-[120px] z-10">
+            <div class="md:w-[150px] md:h-[150px] lg:w-[150px] lg:h-[150px] w-[120px] h-[120px] z-10 -mt-4">
               <NuxtLink to="/">
                 <img src="/ngtc-logo.jpeg" alt="" class="rounded-full" />
               </NuxtLink>

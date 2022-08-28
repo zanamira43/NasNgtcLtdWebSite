@@ -10,6 +10,6 @@
 </template>
 <script>
 </script>
-<style>
-  
+<style scoped>
+
 </style>
