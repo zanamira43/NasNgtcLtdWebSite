@@ -42,7 +42,8 @@
         <div class="py-3 lg:pl-3 md:pl-3">
           <!-- logo -->
           <div class="w-[150px] h-[150px]">
-            <img src="/ngtc-logo.jpeg" alt="" class="rounded-full">
+            <!-- <img src="/ngtc-logo.jpeg" alt="" class="rounded-full"> -->
+            <img src="/nas-logo-img-no-bg.png" alt="" class="rounded-full" />
           </div>
 
           <!-- phone email -->
