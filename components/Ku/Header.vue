@@ -25,7 +25,8 @@
             <!-- logo images -->
             <div class="md:w-[150px] md:h-[150px] lg:w-[150px] lg:h-[150px] w-[120px] h-[120px] z-10">
               <NuxtLink to="/kurdish">
-                <img src="/ngtc-logo.jpeg" alt="" class="rounded-full" />
+                <!-- <img src="/ngtc-logo.jpeg" alt="" class="rounded-full" /> -->
+                <img src="/nas-logo-img-no-bg.png" alt="" class="rounded-full" />
               </NuxtLink>
             </div>
 
