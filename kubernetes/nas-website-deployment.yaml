@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nas-website
+  name: nas-website-deployment
+  namespace: nas-website
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nas-website
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: nas-website
+    spec:
+      containers:
+        - image: zanamira43/nas-webist-nuxt-app:1.0
+          name: nas-website-container
+          imagePullPolicy: IfNotPresent  
+          ports:
+            - containerPort: 30001
+          resources: {}
+
+status: {}

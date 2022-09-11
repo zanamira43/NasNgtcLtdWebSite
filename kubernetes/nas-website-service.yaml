@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nas-website-service
+  namespace: nas-website
+  labels:
+    app: nas-website
+spec:
+  selector:
+    app: nas-website
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 30001
+      protocol: TCP
