@@ -16,8 +16,10 @@
       </div>
 
       <!-- hader section image background -->
-        <img src="/ngtc-header-bg-image.jpg" alt="header-image" 
-        class="w-full h-full items-center opacity-40 absolute" />
+        <!-- <img src="/ngtc-header-bg-image.jpg" alt="header-image" 
+        class="w-full h-full items-center opacity-40 absolute" /> -->
+        <img src="/nas-ltd-website-bg-header.jpg" alt="header-image" 
+        class="w-full h-full items-center opacity-50 absolute" />
 
       <div class="container mx-auto">  
         <!-- navbar section -->
@@ -33,7 +35,7 @@
 
             <!-- menu link-->
             <div class="hidden lg:block md:flex">
-              <div class="text-white z-10 bg-[#06A4DF] opacity-[60%] mt-10
+              <div class="text-white z-10 bg-[#06A4DF] opacity-[80%] mt-10
                     h-10 rounded-md">
                 <ul class="flex items-center">
                   <li v-for="(menuItem, i) in menuItems" :key="i"
