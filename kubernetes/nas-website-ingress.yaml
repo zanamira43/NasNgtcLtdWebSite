@@ -1,19 +1,26 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: vue-todo-ingress
-  namespace: vuejs
+  name: nas-website-ingress
+  namespace: nas-website
   annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/cors-allow-methods: "true"
+    cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
+  tls:
+  - hosts:
+    - nas.zanamira83.info
+    secretName: nas-website-tls
   ingressClassName: nginx
   rules:
-  - host: vuetodo.104.238.187.234.vultrusercontent.com
+  - host: nas.zanamira83.info
     http:
       paths:
       - pathType: Prefix
         path: "/"
         backend:
           service:
-            name: vue-todo-service
+            name: nas-website-service
             port:
-              number: 8088
+              number: 3000

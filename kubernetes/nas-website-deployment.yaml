@@ -6,7 +6,7 @@ metadata:
   name: nas-website-deployment
   namespace: nas-website
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: nas-website
@@ -17,11 +17,11 @@ spec:
         app: nas-website
     spec:
       containers:
-        - image: zanamira43/nas-webist-nuxt-app:1.0
-          name: nas-website-container
+        - image: zanamira43/nas-website-nuxt-app:1.0
+          name: nas-website
           imagePullPolicy: IfNotPresent  
           ports:
-            - containerPort: 30001
+            - containerPort: 3000
           resources: {}
 
 status: {}
