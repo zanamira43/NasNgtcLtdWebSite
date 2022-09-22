@@ -1,4 +1,4 @@
-FROM node:17-alpine
+FROM node:lts
 
 RUN mkdir -p /usr/src/nas-website
 WORKDIR /usr/src/nas-website

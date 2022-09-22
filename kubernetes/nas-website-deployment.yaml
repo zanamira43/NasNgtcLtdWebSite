@@ -17,11 +17,11 @@ spec:
         app: nas-website
     spec:
       containers:
-        - image: zanamira43/nas-website-nuxt-app:1.0
+        - image: zanamira43/nas-website-nuxt:1.0
           name: nas-website
           imagePullPolicy: IfNotPresent  
           ports:
-            - containerPort: 80
+            - containerPort: 3000
           resources: {}
 
 status: {}
