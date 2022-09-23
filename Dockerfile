@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:latest
 
 RUN mkdir -p /usr/src/nas-website
 WORKDIR /usr/src/nas-website
@@ -13,3 +13,9 @@ ENV NUXT_PORT=3000
 EXPOSE 3000
 
 ENTRYPOINT ["node", ".output/server/index.mjs"]
+
+
+# FROM nginx:latest
+# COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
+# COPY ./nginx/mime.types  /etc/nginx/mime.types
+# COPY ./.output/public/* /usr/share/nginx/html
