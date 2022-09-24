@@ -18,4 +18,5 @@ ENTRYPOINT ["node", ".output/server/index.mjs"]
 # FROM nginx:latest
 # COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 # COPY ./nginx/mime.types  /etc/nginx/mime.types
-# COPY ./.output/public/* /usr/share/nginx/html
+# COPY ./public /usr/share/nginx/html
+# RUN chmod 755 -R /usr/share/html

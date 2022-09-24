@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
+import { server } from 'process'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -9,7 +10,14 @@ export default defineNuxtConfig({
         tailwindcss: {},
         autoprefixer: {}
       }
-    }
+    },
+    target: 'server',
+    generate: {
+      exclude: [
+        /^\/dynamic-route\//,
+      ]
+    },
+
   
 
 })
