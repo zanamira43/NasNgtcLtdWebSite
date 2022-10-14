@@ -17,7 +17,7 @@ spec:
         app: nas-website
     spec:
       containers:
-        - image: zanamira43/nas-webapp-nuxt:1.0 
+        - image: zanamira43/nas-main-website:1.1
           name: nas-website
           imagePullPolicy: Always
           ports:

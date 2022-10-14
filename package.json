@@ -11,7 +11,8 @@
     "nuxt": "3.0.0-rc.11"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
     "emailjs-com": "^3.2.0",
-    "@fortawesome/fontawesome-free": "^6.1.2"
+    "vue-gtag-next": "^1.14.0"
   }
 }
